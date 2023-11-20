@@ -24,3 +24,4 @@ elif type=="Question paper":
     
 
 print("https://papers.gceguide.com/A Levels/"+subjectname+"/"+year+"/"+subjectcode+"_"+session+yearlast+"_"+typevar+"_"+variant+".pdf")
+input("Enter any key to exit: ")
