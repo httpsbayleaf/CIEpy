@@ -14,17 +14,5 @@ The script prompts users to input specific details to generate the URL for acces
 
 The script then generates the URL leading to the downloadable PDF of the selected past paper.
 
-## Usage
-
-1. **Clone the Repository**
-    ```
-    git clone https://github.com/https_bayleaf/ciepy.git
-    cd ciepy
-    ```
-
-2. **Run the Script**
-    ```
-    python ciepy.py
-    ```
-    Follow the prompts to input the details as requested.
-
+## Contribute
+Feel free to fork, open issues or submit pull requests if you face any issues, have suggestions or want to improve the code.
