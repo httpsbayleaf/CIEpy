@@ -1,3 +1,4 @@
+import webbrowser
 
 subject=input("What subject do you want past papers for? [Choose from Maths, Chemistry and Physics] ")
 if subject=="Maths":
@@ -8,7 +9,7 @@ elif subject=="Chemistry":
     subjectname="Chemistry (9701)"
 elif subject=="Physics":
     subjectcode="9702"
-    subjectname="Physics (9701)"
+    subjectname="Physics (9702)"
 
 year=input("Which year is the past paper from? ")
 yearlast=year[-2::]
@@ -23,5 +24,6 @@ elif type=="Question paper":
     typevar="qp"
     
 
-print("https://papers.gceguide.com/A Levels/"+subjectname+"/"+year+"/"+subjectcode+"_"+session+yearlast+"_"+typevar+"_"+variant+".pdf")
+url="https://papers.gceguide.com/A Levels/"+subjectname+"/"+year+"/"+subjectcode+"_"+session+yearlast+"_"+typevar+"_"+variant+".pdf"
+webbrowser.open(url)
 input("Enter any key to exit: ")
