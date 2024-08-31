@@ -6,3 +6,10 @@ CIEpy was built with Python, and uses TKinter for GUI support and Web Browser fo
 - Drop-down Menus for Easy Selection
 - 3 Subjects (Maths, Physics, Chemistry)
 - Select between Question Paper and Mark Scheme
+## Todo
+- [ ] Dark Mode
+- [ ] Support for More Subjects
+- [ ] Support for O-Level Subjects
+- [ ] Executable Binary
+## Contribute
+Feel free to fork, open issues or reach out to me if you have any issues, suggestions and job offers that you want me to see.
